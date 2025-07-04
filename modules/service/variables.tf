@@ -304,11 +304,11 @@ variable "family" {
   default     = null
 }
 
-variable "inference_accelerator" {
-  description = "Configuration block(s) with Inference Accelerators settings"
-  type        = any
-  default     = {}
-}
+# variable "inference_accelerator" {
+#   description = "Configuration block(s) with Inference Accelerators settings"
+#   type        = any
+#   default     = {}
+# }
 
 variable "ipc_mode" {
   description = "IPC resource namespace to be used for the containers in the task The valid values are `host`, `task`, and `none`"
